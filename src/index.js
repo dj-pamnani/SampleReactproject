@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import MyOthetComponent from './MyOtherComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyOthetComponent />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root1')
 );
 
 // If you want to start measuring performance in your app, pass a function
